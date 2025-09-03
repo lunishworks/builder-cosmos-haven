@@ -183,13 +183,13 @@
 
 	<!-- Mobile Navigation Menu (hidden on desktop) -->
 	<div class="lg:hidden fixed bottom-0 left-0 right-0 z-50 px-4 pb-4">
-		<div class="bg-forum-bg rounded-forum shadow-forum px-6 py-4">
+		<div class="bg-forum-bg rounded-forum shadow-forum px-4 py-3">
 			<div class="flex items-center justify-between">
-				<a href="/" class="text-forum-text text-sm font-normal">Home</a>
-				<a href="/account" class="text-forum-text text-sm font-normal">Account</a>
-				<a href="/forums" class="text-forum-text text-sm font-normal">Forums</a>
-				<a href="/admin" class="text-forum-text text-sm font-normal">Admin</a>
-				<a href="/logout" class="text-forum-text text-sm font-normal">Logout</a>
+				<a href="/" class="text-forum-text text-xs font-normal hover:text-forum-accent-green transition-colors">Home</a>
+				<a href="/account" class="text-forum-text text-xs font-normal hover:text-forum-accent-green transition-colors">Account</a>
+				<a href="/forums" class="text-forum-text text-xs font-normal hover:text-forum-accent-green transition-colors">Forums</a>
+				<a href="/admin" class="text-forum-text text-xs font-normal hover:text-forum-accent-green transition-colors">Admin</a>
+				<a href="/logout" class="text-forum-text text-xs font-normal hover:text-forum-accent-green transition-colors">Logout</a>
 			</div>
 		</div>
 	</div>
