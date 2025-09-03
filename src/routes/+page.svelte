@@ -64,7 +64,7 @@
 
 <div class="min-h-screen bg-[#0A0A0A] font-anybody">
 	<!-- Navigation Bar -->
-	<nav class="fixed top-0 left-0 right-0 z-50 px-4 py-4">
+	<nav class="fixed top-0 left-0 right-0 z-50 px-4 py-4 hidden lg:block">
 		<div class="max-w-7xl mx-auto">
 			<div class="bg-forum-bg rounded-forum shadow-forum px-8 py-4">
 				<div class="flex items-center justify-between">
@@ -91,6 +91,20 @@
 						</a>
 					</div>
 				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Mobile Navigation Bar -->
+	<nav class="fixed top-0 left-0 right-0 z-50 px-4 py-4 lg:hidden">
+		<div class="bg-forum-bg rounded-forum shadow-forum px-6 py-3">
+			<div class="flex items-center justify-between">
+				<h1 class="text-forum-text text-xl font-bold">Forum</h1>
+				<button class="text-forum-text hover:text-forum-accent-green">
+					<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+					</svg>
+				</button>
 			</div>
 		</div>
 	</nav>
